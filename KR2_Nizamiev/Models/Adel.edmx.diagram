@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f7658a59f0784f9e9d37c77d88a631de" Name="Diagram1">
+        <EntityTypeShape EntityType="KR2_NizamievAdelModel.Departments" Width="1.5" PointX="0.75" PointY="1.75" />
+        <EntityTypeShape EntityType="KR2_NizamievAdelModel.Order" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="KR2_NizamievAdelModel.OrderCategories" Width="1.5" PointX="3" PointY="7.75" />
+        <EntityTypeShape EntityType="KR2_NizamievAdelModel.OrderPriorities" Width="1.5" PointX="3" PointY="5.25" />
+        <EntityTypeShape EntityType="KR2_NizamievAdelModel.Roles" Width="1.5" PointX="0.75" PointY="5.875" />
+        <EntityTypeShape EntityType="KR2_NizamievAdelModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" />
+        <EntityTypeShape EntityType="KR2_NizamievAdelModel.User" Width="1.5" PointX="3" PointY="1.25" />
+        <AssociationConnector Association="KR2_NizamievAdelModel.FK__Employees__Depar__32E0915F" />
+        <AssociationConnector Association="KR2_NizamievAdelModel.FK__Tasks__Departmen__3C69FB99" />
+        <AssociationConnector Association="KR2_NizamievAdelModel.FK__Tasks__AssignedT__3D5E1FD2" />
+        <AssociationConnector Association="KR2_NizamievAdelModel.FK__Tasks__CategoryI__3A81B327" />
+        <AssociationConnector Association="KR2_NizamievAdelModel.FK__Tasks__PriorityI__3B75D760" />
+        <AssociationConnector Association="KR2_NizamievAdelModel.FK__Employees__RoleI__33D4B598" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
